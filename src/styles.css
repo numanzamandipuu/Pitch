@@ -5,3 +5,10 @@ body {
 .custom-nav {
   background-color: #121212;
 }
+
+.card {
+  background: linear-gradient(0deg, rgba(50,50,50,1) 0%, rgba(18,18,18,1) 100%);
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border: none!important;
+}
