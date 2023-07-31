@@ -13,6 +13,16 @@ body {
   border: none!important;
 }
 
-/* .team-info {
-  position: absolute;
-} */
+.team-one-info {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.team-two-info {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.team-image {
+  border-radius: 8px;
+}
