@@ -26,3 +26,13 @@ body {
 .team-image {
   border-radius: 8px;
 }
+
+.team-over {
+  font-size: 12px;
+  color: rgb(219, 208, 255);
+}
+
+.team-score {
+  justify-content: space-between;
+  align-items: center;
+}
