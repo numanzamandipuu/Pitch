@@ -36,3 +36,9 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+
+.result {
+  font-size: 14px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+}
