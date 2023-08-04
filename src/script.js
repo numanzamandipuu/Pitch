@@ -17,3 +17,56 @@ $(function() {
     });
   });
   
+  document.getElementById("toggleButtont20").addEventListener("click", function() {
+    var buttonText = this.innerText;
+    var initialCard = document.getElementById("t20Initial");
+  
+    if (buttonText === "View More") {
+      this.innerText = "View Less";
+      initialCard.classList.remove("ranking-card");
+      initialCard.classList.add("initial-ranking-card");
+    } else {
+      this.innerText = "View More";
+      setTimeout(function() {
+        initialCard.classList.add("ranking-card");
+        initialCard.classList.remove("initial-ranking-card");
+      }, 400);
+    }
+  });
+  
+
+  document.getElementById("toggleButtonodi").addEventListener("click", function() {
+    var buttonText = this.innerText;
+    var initialCard = document.getElementById("odiInitial");
+  
+    if (buttonText === "View More") {
+      this.innerText = "View Less";
+      initialCard.classList.remove("ranking-card");
+      initialCard.classList.add("initial-ranking-card");
+    } else {
+      this.innerText = "View More";
+      setTimeout(function() {
+        initialCard.classList.add("ranking-card");
+        initialCard.classList.remove("initial-ranking-card");
+      }, 400);
+    }
+  });
+  
+
+  document.getElementById("toggleButtontest").addEventListener("click", function() {
+    var buttonText = this.innerText;
+    var initialCard = document.getElementById("testInitial");
+  
+    if (buttonText === "View More") {
+      this.innerText = "View Less";
+      initialCard.classList.remove("ranking-card");
+      initialCard.classList.add("initial-ranking-card");
+    } else {
+      this.innerText = "View More";
+      setTimeout(function() {
+        initialCard.classList.add("ranking-card");
+        initialCard.classList.remove("initial-ranking-card");
+      }, 400);
+    }
+  });
+  

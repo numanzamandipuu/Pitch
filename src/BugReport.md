@@ -1,0 +1,1 @@
+in the team ranking, if I click toogle button extreamly fast, the code breaks and acts weird
