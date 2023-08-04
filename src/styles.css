@@ -84,3 +84,79 @@ body {
     display: none;
   }
 }
+
+
+
+
+/* Ranking CSS Start */
+
+.taeb-switch {
+  position: relative;
+}
+
+.taeb-switch:after {
+  content: "";
+  position: absolute;
+  width: calc(100% / 3);
+  top: 0;
+  transition: left cubic-bezier(.88, -.35, .565, 1.35) .4s;
+  border-radius: 27.5px;
+  box-shadow: 0 2px 15px 0 rgba(0, 0, 0, .1);
+  background-color: #000000;
+  height: 100%;
+  z-index: 0;
+}
+
+.taeb-switch.left:after {
+  left: 0;
+}
+
+.taeb-switch.middle:after {
+  left: calc(100% / 3);
+}
+
+.taeb-switch.right:after {
+  left: calc(100% / 3 * 2);
+}
+
+.taeb-switch .taeb {
+  display: inline-block;
+  width: calc(100% / 3);
+  padding: 12px 0;
+  z-index: 1;
+  position: relative;
+  cursor: pointer;
+  transition: color 200ms;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: normal;
+  user-select: none;
+}
+
+.taeb-switch .taeb.active {
+  color: #ffffff;
+}
+
+.wrapper {
+  border-radius: 37px;
+  background-color: #898989;
+  padding: 8px;
+  width: 100%;
+  max-width: 316px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.tab-content {
+  display: none;
+  padding: 12px;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+}
+
+
+/* Ranking CSS End */
