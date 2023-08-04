@@ -29,7 +29,7 @@ body {
 }
 
 .team-image {
-  border-radius: 8px;
+  border-radius: 4px;
 }
 
 .team-over {
@@ -56,4 +56,31 @@ body {
   background-color: #1C1C1C!important;
   border-radius: 20px;
   border: none!important;
+}
+
+.series-name {
+  font-size: 14px;
+}
+
+.start-time {
+  font-size: 14px;
+  text-align: center;
+}
+
+.team-card {
+  background-color: #1C1C1C!important;
+  border-radius: 10px;
+  border: none!important;
+  color: rgb(0, 47, 255);
+  text-align: center;
+}
+
+.team-display {
+  display: flex;
+}
+
+@media (max-width: 767px) {
+  .team-display::-webkit-scrollbar {
+    display: none;
+  }
 }
