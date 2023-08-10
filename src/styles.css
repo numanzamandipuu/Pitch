@@ -177,3 +177,31 @@ body {
 }
 
 /* Ranking CSS End */
+
+
+.scrolling-team {
+  width: 128px;
+  display: inline-block;
+  background-color: #ddd;
+  margin-right: 10px;
+}
+
+.overflow-indicator {
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+  .overflow-indicator {
+    overflow-x: scroll;
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .overflow-indicator::-webkit-scrollbar {
+    display: none;
+  }
+}
