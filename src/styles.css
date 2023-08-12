@@ -206,3 +206,8 @@ body {
     display: none;
   }
 }
+
+.btn-outline-info {
+  color: #0dcaf0!important;
+  border-color: #0dcaf0!important;
+}
