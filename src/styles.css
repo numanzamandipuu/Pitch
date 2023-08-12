@@ -211,3 +211,7 @@ body {
   color: #0dcaf0!important;
   border-color: #0dcaf0!important;
 }
+
+.btn-outline-info:hover {
+  color: #000!important;
+}
