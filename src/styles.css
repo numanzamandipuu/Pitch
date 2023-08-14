@@ -215,3 +215,7 @@ body {
 .btn-outline-info:hover {
   color: #000!important;
 }
+
+.rank-image-text{
+  display: flex;
+}
