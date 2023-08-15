@@ -219,3 +219,14 @@ body {
 .rank-image-text{
   display: flex;
 }
+/* 
+.ranking-image {
+  height: 24px;
+  width: 24px;
+  overflow: hidden;
+}
+
+.ranking-image img {
+  height: 24px;
+  /* width: 24px; */
+} */
