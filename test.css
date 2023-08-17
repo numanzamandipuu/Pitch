@@ -1,0 +1,55 @@
+.cwc-point-top > tbody > tr:nth-child(odd) > td,
+.cwc-point-top > tbody > tr:nth-child(odd) > th {
+background-color: #000000!important;
+}
+
+.cwc-point-top > tbody > tr:nth-child(even) > td,
+.cwc-point-top > tbody > tr:nth-child(even) > th {
+  background-color: #1C1C1C!important;
+}
+
+.cwc-point-bottom > tbody > tr:nth-child(odd) > td,
+.cwc-point-bottom > tbody > tr:nth-child(odd) > th {
+ background-color: #1C1C1C!important;
+}
+
+.cwc-point-bottom > tbody > tr:nth-child(even) > td,
+.cwc-point-bottom > tbody > tr:nth-child(even) > th {
+ background-color: #000000!important;
+}
+
+td, th {
+  text-align: center;
+}
+
+td[colspan="2"] {
+  text-align: left;
+}
+
+.cwc-point-top {
+    table-layout: fixed;
+}
+
+.cwc-point-bottom {
+    table-layout: fixed;
+}
+
+.table-top-left {
+  border-top-left-radius: 15px!important;
+}
+
+.table-top-right {
+  border-top-right-radius: 15px;
+}
+  
+.table-bottom-left {
+  transition: background-color 0.3s, color 0.3s;
+  border-bottom-left-radius: 15px;
+  transition: border-bottom-left-radius 1s;
+}
+
+.table-bottom-right {
+    transition: background-color 0.3s, color 0.3s;
+    border-bottom-right-radius: 15px;
+    transition: border-bottom-right-radius 1s;
+}

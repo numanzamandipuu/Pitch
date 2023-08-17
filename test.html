@@ -1,50 +1,151 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
+
 <head>
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      overflow-x: scroll;
-      white-space: nowrap;
-      margin: 0;
-      padding: 0;
-    }
-    .block {
-      width: 128px;
-      height: 64px;
-      display: inline-block;
-      background-color: #ddd;
-      margin-right: 10px;
-    }
-    .block:nth-child(odd) {
-      background-color: #FF5733;
-    }
-    .block:nth-child(even) {
-      background-color: #3498DB;
-    }
-  </style>
+  <title>Pitch</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="200x200" href="img/200x200.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="src/styles.css">
+  <link rel="stylesheet" href="test.css">
 </head>
+
 <body>
 
-<div class="container-fluid">
-  <div class="row">
-    <div class="col">
-      <div class="block"></div>
-      <div class="block"></div>
-      <div class="block"></div>
-      <div class="block"></div>
-      <div class="block"></div>
-      <div class="block"></div>
-      <div class="block"></div>
-      <div class="block"></div>
-      <div class="block"></div>
-      <div class="block"></div>
-      <div class="block"></div>
-      <div class="block"></div>
+  <div class="p-3">
+    <div class="">
+      <table class="table table-borderless table-hover table-dark cwc-point-top my-0">
+        <thead>
+          <tr>
+            <th class="table-top-left" colspan="2">Team</th>
+            <th>M</th>
+            <th>W</th>
+            <th>L</th>
+            <th>NRR</th>
+            <th class="table-top-right">Pts</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td colspan="2">0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td colspan="2">0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td colspan="2">0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td colspan="2">0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td class="table-bottom-left" id="BottomLeftFirst" colspan="2">0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td class="table-bottom-right" id="BottomRightFirst">0</td>
+          </tr>
+          </thead>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="collapse" id="collapseExample">
+      <div>
+        <div class="">
+          <table class="table table-borderless table-hover table-dark cwc-point-bottom my-0">
+
+            <tr>
+              <td colspan="2">0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td colspan="2">0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td colspan="2">0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td colspan="2">0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td class="table-bottom-left" colspan="2">0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td class="table-bottom-right">0</td>
+            </tr>
+            </tbody>
+          </table>
+
+        </div>
+      </div>
     </div>
   </div>
-</div>
 
+
+  <p class="d-inline-flex gap-1">
+    <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+      aria-controls="collapseExample" id="TableButton">
+      Link with href
+    </a>
+  </p>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+  <script src="src/script.js"></script>
+  <script src="test.js"></script>
 </body>
+
 </html>
