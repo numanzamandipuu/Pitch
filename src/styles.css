@@ -207,16 +207,66 @@ body {
   }
 }
 
-.btn-outline-info {
-  color: #0dcaf0!important;
-  border-color: #0dcaf0!important;
-}
-
-.btn-outline-info:hover {
-  color: #000!important;
-}
-
 .rank-image-text{
   display: flex;
   white-space: nowrap;
+}
+
+
+/* Point Table */
+
+.cwc-point-top > tbody > tr:nth-child(odd) > td,
+.cwc-point-top > tbody > tr:nth-child(odd) > th {
+background-color: #000000!important;
+}
+
+.cwc-point-top > tbody > tr:nth-child(even) > td,
+.cwc-point-top > tbody > tr:nth-child(even) > th {
+  background-color: #1C1C1C!important;
+}
+
+.cwc-point-bottom > tbody > tr:nth-child(odd) > td,
+.cwc-point-bottom > tbody > tr:nth-child(odd) > th {
+ background-color: #1C1C1C!important;
+}
+
+.cwc-point-bottom > tbody > tr:nth-child(even) > td,
+.cwc-point-bottom > tbody > tr:nth-child(even) > th {
+ background-color: #000000!important;
+}
+
+td, th {
+  text-align: center;
+  white-space: nowrap;
+}
+
+td[colspan="2"] {
+  text-align: left;
+}
+
+.table-top-left {
+  border-top-left-radius: 15px;
+}
+
+.table-top-right {
+  border-top-right-radius: 15px;
+}
+  
+.table-bottom-left {
+  transition: background-color 0.3s, color 0.3s;
+  border-bottom-left-radius: 15px;
+  transition: border-bottom-left-radius 1s;
+}
+
+.table-bottom-right {
+    transition: background-color 0.3s, color 0.3s;
+    border-bottom-right-radius: 15px;
+    transition: border-bottom-right-radius 1s;
+}
+
+.table-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
