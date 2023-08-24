@@ -218,4 +218,5 @@ body {
 
 .rank-image-text{
   display: flex;
+  white-space: nowrap;
 }

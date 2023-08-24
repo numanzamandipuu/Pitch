@@ -20,6 +20,7 @@ background-color: #000000!important;
 
 td, th {
   text-align: center;
+  white-space: nowrap;
   /* padding-left: 0px!important;
   padding-right: 0px!important; */
 }
@@ -27,6 +28,7 @@ td, th {
 td[colspan="2"] {
   text-align: left;
 }
+
 /* 
 .cwc-point-top {
     table-layout: fixed;
