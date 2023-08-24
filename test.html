@@ -1,220 +1,144 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Pitch</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/png" sizes="200x200" href="img/200x200.png">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-  <link rel="stylesheet" href="src/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
   <link rel="stylesheet" href="test.css">
+  <link rel="stylesheet" href="src/styles.css">
+  <title>Bootstrap 5.3</title>
 </head>
 
 <body>
 
-  <div class="p-3">
-    <div class="">
-      <table class="table table-borderless table-hover table-dark cwc-point-top my-0" id="firstTable">
-        <thead>
-          <tr>
-            <th class="table-top-left" colspan="2">Team</th>
-            <th>M</th>
-            <th>W</th>
-            <th>L</th>
-            <th>NRR</th>
-            <th class="table-top-right">Pts</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td colspan="2">
-              <div class="rank-image-text">
-                <span class="team-rank">
-                  <strong>1. </strong>
-                </span> 
-                <img src="img/128x64/Bangladesh.png" alt="" height="16" width="auto" class="px-2 mt-1"> Bangladesh 
-              </div>
-            </td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0.00</td>
-            <td>0</td>
-          </tr>
-          <tr>
-            <td colspan="2">
-              <div class="rank-image-text">
-                <span class="team-rank">
-                  <strong>2. </strong>
-                </span> 
-                <img src="img/128x64/Australia.png" alt="" height="16" width="auto" class="px-2 mt-1"> Australia 
-              </div>
-            </td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0.00</td>
-            <td>0</td>
-          </tr>
-          <tr>
-            <td colspan="2">
-              <div class="rank-image-text">
-                <span class="team-rank">
-                  <strong>3. </strong>
-                </span> 
-                <img src="img/128x64/Pakistan.png" alt="" height="16" width="auto" class="px-2 mt-1"> Pakistan 
-              </div>
-            </td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0.00</td>
-            <td>0</td>
-          </tr>
-          <tr>
-            <td colspan="2">
-              <div class="rank-image-text">
-                <span class="team-rank">
-                  <strong>4. </strong>
-                </span> 
-                <img src="img/128x64/India.png" alt="" height="16" width="auto" class="px-2 mt-1"> India 
-              </div>
-            </td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0.00</td>
-            <td>0</td>
-          </tr>
-          <tr>
-            <td class="table-bottom-left" id="BottomLeftFirst" colspan="2">
-              <div class="rank-image-text">
-                <span class="team-rank">
-                  <strong>5. </strong>
-                </span> 
-                <img src="img/128x64/New Zealand.png" alt="" height="16" width="auto" class="px-2 mt-1"> New Zealand 
-              </div>
-            </td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0.00</td>
-            <td class="table-bottom-right" id="BottomRightFirst">0</td>
-          </tr>
-          </thead>
-        </tbody>
-      </table>
-    </div>
 
-    <div class="collapse" id="collapseExample">
-      <div>
-        <div class="">
-          <table class="table table-borderless table-hover table-dark cwc-point-bottom my-0" id="secondTable">
+    <div class="card">
+      <div class="card-header">
 
-            <tr>
-              <td colspan="2">
-              <div class="rank-image-text">
-                <span class="team-rank">
-                  <strong>6. </strong>
-                </span> 
-                <img src="img/128x64/England.png" alt="" height="16" width="auto" class="px-2 mt-1"> England 
+        <div class="tabbable-responsive">
+          <ul class="nav nav-pills nav-fill" id="linxea-avenir" role="tablist">
+            <li class="nav-item" role="presentation">
+              <a class="nav-link active" id="eleve-tab" data-bs-toggle="pill" href="#eleve" role="tab"
+                aria-controls="eleve" aria-selected="true">Tab 1</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="moyen-tab" data-bs-toggle="pill" href="#moyen" role="tab" aria-controls="moyen"
+                aria-selected="false">Tab 2</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="faible-tab" data-bs-toggle="pill" href="#faible" role="tab"
+                aria-controls="faible" aria-selected="false">Tab 3</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="tab-content" style="margin-top: 2px;">
+
+          <div class="tab-pane fade show active" id="eleve" role="tabpanel" aria-labelledby="eleve-tab">
+            <ul class="nav nav-pills nav-fill" id="eleve-nav" role="tablist">
+              <li class="nav-item" role="presentation">
+                <a class="nav-link active" id="eleve-eco-tab" data-bs-toggle="pill" href="#eleve-eco" role="tab"
+                  aria-controls="eleve-eco" aria-selected="true">Tab 1.1</a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" id="eleve-standard-tab" data-bs-toggle="pill" href="#eleve-standard" role="tab"
+                  aria-controls="eleve-standard" aria-selected="false">Tab 1.2</a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" id="eleve-additional-tab" data-bs-toggle="pill" href="#eleve-additional" role="tab"
+                  aria-controls="eleve-additional" aria-selected="false">Tab 1.3</a>
+              </li>
+            </ul>
+
+            <div class="tab-content">
+              <div class="tab-pane fade show active" id="eleve-eco" role="tabpanel"
+                aria-labelledby="eleve-eco-tab">
+                <p>exemple 1</p>
               </div>
-            </td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0.00</td>
-              <td>0</td>
-            </tr>
-            <tr>
-              <td colspan="2">
-              <div class="rank-image-text">
-                <span class="team-rank">
-                  <strong>7. </strong>
-                </span> 
-                <img src="img/128x64/South Africa.png" alt="" height="16" width="auto" class="px-2 mt-1"> South Africa 
+              <div class="tab-pane fade" id="eleve-standard" role="tabpanel"
+                aria-labelledby="eleve-standard-tab">
+                <p>exemple 2</p>
               </div>
-            </td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0.00</td>
-              <td>0</td>
-            </tr>
-            <tr>
-              <td colspan="2">
-              <div class="rank-image-text">
-                <span class="team-rank">
-                  <strong>8. </strong>
-                </span> 
-                <img src="img/128x64/Afghanistan.png" alt="" height="16" width="auto" class="px-2 mt-1"> Afghanistan 
+              <div class="tab-pane fade" id="eleve-additional" role="tabpanel"
+                aria-labelledby="eleve-additional-tab">
+                <p>exemple 3</p>
               </div>
-            </td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0.00</td>
-              <td>0</td>
-            </tr>
-            <tr>
-              <td colspan="2">
-              <div class="rank-image-text">
-                <span class="team-rank">
-                  <strong>9. </strong>
-                </span> 
-                <img src="img/128x64/Sri Lanka.png" alt="" height="16" width="auto" class="px-2 mt-1"> Sri Lanka 
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="moyen" role="tabpanel" aria-labelledby="moyen-tab">
+            <ul class="nav nav-pills nav-fill" id="moyen-nav" role="tablist">
+              <li class="nav-item" role="presentation">
+                <a class="nav-link active" id="moyen-eco-tab" data-bs-toggle="pill" href="#moyen-eco" role="tab"
+                  aria-controls="moyen-eco" aria-selected="true">Tab 2.1</a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" id="moyen-standard-tab" data-bs-toggle="pill" href="#moyen-standard" role="tab"
+                  aria-controls="moyen-standard" aria-selected="false">Tab 2.2</a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" id="moyen-additional-tab" data-bs-toggle="pill" href="#moyen-additional" role="tab"
+                  aria-controls="moyen-additional" aria-selected="false">Tab 2.3</a>
+              </li>
+            </ul>
+
+            <div class="tab-content">
+              <div class="tab-pane fade show active" id="moyen-eco" role="tabpanel"
+                aria-labelledby="moyen-eco-tab">
+                <p>exemple 4</p>
               </div>
-            </td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0.00</td>
-              <td>0</td>
-            </tr>
-            <tr>
-              <td class="table-bottom-left" colspan="2">
-                <div class="rank-image-text">
-                  <span class="team-rank">
-                    <strong>10. </strong>
-                  </span> 
-                  <img src="img/128x64/West Indies.png" alt="" height="16" width="auto" class="px-2 mt-1"> West Indies
-                </div>
-              </td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0.00</td>
-              <td class="table-bottom-right">0</td>
-            </tr>
-            </tbody>
-          </table>
+              <div class="tab-pane fade" id="moyen-standard" role="tabpanel"
+                aria-labelledby="moyen-standard-tab">
+                <p>exemple 5</p>
+              </div>
+              <div class="tab-pane fade" id="moyen-additional" role="tabpanel"
+                aria-labelledby="moyen-additional-tab">
+                <p>exemple 6</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="faible" role="tabpanel" aria-labelledby="faible-tab">
+            <ul class="nav nav-pills nav-fill" id="faible-nav" role="tablist">
+              <li class="nav-item" role="presentation">
+                <a class="nav-link active" id="faible-eco-tab" data-bs-toggle="pill" href="#faible-eco" role="tab"
+                  aria-controls="faible-eco" aria-selected="true">Tab 3.1</a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" id="faible-standard-tab" data-bs-toggle="pill" href="#faible-standard" role="tab"
+                  aria-controls="faible-standard" aria-selected="false">Tab 3.2</a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" id="faible-additional-tab" data-bs-toggle="pill" href="#faible-additional" role="tab"
+                  aria-controls="faible-additional" aria-selected="false">Tab 3.3</a>
+              </li>
+            </ul>
+
+            <div class="tab-content">
+              <div class="tab-pane fade show active" id="faible-eco" role="tabpanel"
+                aria-labelledby="faible-eco-tab">
+                <p>exemple 7</p>
+              </div>
+              <div class="tab-pane fade" id="faible-standard" role="tabpanel"
+                aria-labelledby="faible-standard-tab">
+                <p>exemple 8</p>
+              </div>
+              <div class="tab-pane fade" id="faible-additional" role="tabpanel"
+                aria-labelledby="faible-additional-tab">
+                <p>exemple 9</p>
+              </div>
+            </div>
+          </div>
 
         </div>
+
       </div>
     </div>
-  </div>
+    
 
 
-  <div class="table-button">
-    <a class="btn btn-info" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
-      aria-controls="collapseExample" id="TableButton">
-      View More
-    </a>
-  </div>
-
-
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-    crossorigin="anonymous"></script>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
-  <script src="src/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
   <script src="test.js"></script>
 </body>
 
