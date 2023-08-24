@@ -35,7 +35,7 @@ td[colspan="2"] {
 }
 
 .table-top-left {
-  border-top-left-radius: 15px!important;
+  border-top-left-radius: 15px;
 }
 
 .table-top-right {
@@ -52,4 +52,11 @@ td[colspan="2"] {
     transition: background-color 0.3s, color 0.3s;
     border-bottom-right-radius: 15px;
     transition: border-bottom-right-radius 1s;
+}
+
+.table-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }

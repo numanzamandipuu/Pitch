@@ -16,5 +16,13 @@ document.getElementById("TableButton").addEventListener("click", function() {
       right.classList.remove("table-bottom");
       right.classList.add("table-bottom-right");
     }
+
+    var TableButton = document.getElementById("TableButton");
+    if (TableButton.innerText === "View More") {
+      TableButton.innerText = "View Less";
+    }
+    else {
+      TableButton.innerText = "View More";
+    }
   });
   
