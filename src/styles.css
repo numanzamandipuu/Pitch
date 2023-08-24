@@ -168,11 +168,14 @@ body {
   text-align: center;
 }
 
-.tab-content-ranking {
-  display: none;
+.tab-content {
+  /* display: none; */
   padding: 12px;
-  background-color: #f30d0d;
   border-radius: 8px;
+}
+
+.hide-tab-content {
+  display: none;
 }
 
 /* Ranking CSS End */
