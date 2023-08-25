@@ -12,7 +12,7 @@ $(function() {
       $this.addClass("active");
   
       var tab = $this.attr("taeb-direction");
-      $(".tab-content").hide();
+      $(".hide-tab-content").hide();
       $("#" + tab + "-content").show();
     });
   });

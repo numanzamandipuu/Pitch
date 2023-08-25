@@ -1,18 +1,3 @@
-document.addEventListener("DOMContentLoaded", function () {
-  const noStylesDiv = document.querySelector("#no-styles-div");
-
-  if (noStylesDiv) {
-    const linkTags = document.querySelectorAll("link[rel='stylesheet']");
-    linkTags.forEach((link) => {
-      if (link.getAttribute("href") === "src/styles.css") {
-        link.remove();
-      }
-    });
-  }
-});
-
-
-
 var countryImageMap = {
   'NZ': 'img/128x64/New Zealand.png',
   'ENG': 'img/128x64/England.png',
