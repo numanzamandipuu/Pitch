@@ -277,3 +277,19 @@ td[colspan="2"] {
   align-items: center;
   height: 100%;
 }
+
+
+/* Player Ranking  */
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #fff;
+  background-color: #0064ff!important;
+}
+
+.tabbable .nav-pills {
+margin-left: 0px;
+}
+
+.player-ranking-card {
+  background-color: #1c1c1c!important;
+}
