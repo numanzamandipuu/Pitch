@@ -32,8 +32,11 @@ var countryImageMap = {
 
             const row = document.createElement("tr");
             const nameCell = document.createElement("td");
+            nameCell.className = "text-start";
             nameCell.innerHTML = name;
+
             const countryCell = document.createElement("td");
+            countryCell.className = "text-start";
 
             var imgSrc = countryImageMap[country] || '';
 
@@ -44,8 +47,15 @@ var countryImageMap = {
 
             const pointsCell = document.createElement("td");
             pointsCell.innerHTML = points;
+            if (i === 4) {
+                pointsCell.classList.add("table-bottom-right");
+            }
+
             const rankCell = document.createElement("td");
             rankCell.innerHTML = '<strong>' + (i + 1) + '.</strong>';
+            if (i === 4) {
+                rankCell.classList.add("table-bottom-left");
+            }
 
             row.appendChild(rankCell);
             row.appendChild(nameCell);
