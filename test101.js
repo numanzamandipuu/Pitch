@@ -31,12 +31,13 @@ var countryImageMap = {
             const points = rows[i].querySelectorAll(".tdpadr span.menuteamblack")[1].textContent;
 
             const row = document.createElement("tr");
+
             const nameCell = document.createElement("td");
-            nameCell.className = "text-start";
+            nameCell.className = "text-start px-0";
             nameCell.innerHTML = name;
 
             const countryCell = document.createElement("td");
-            countryCell.className = "text-start";
+            countryCell.className = "text-start px-0";
 
             var imgSrc = countryImageMap[country] || '';
 
@@ -47,11 +48,13 @@ var countryImageMap = {
 
             const pointsCell = document.createElement("td");
             pointsCell.innerHTML = points;
+            pointsCell.className = "px-0";
             if (i === 4) {
                 pointsCell.classList.add("table-bottom-right");
             }
 
             const rankCell = document.createElement("td");
+            rankCell.className = "px-0";
             rankCell.innerHTML = '<strong>' + (i + 1) + '.</strong>';
             if (i === 4) {
                 rankCell.classList.add("table-bottom-left");
@@ -69,7 +72,14 @@ var countryImageMap = {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    fetchAndPopulateTableData("https://feed.cricket-rankings.com/feed/test/batting/", "tableBody1");
-    fetchAndPopulateTableData("https://feed.cricket-rankings.com/feed/odi/batting/", "tableBody2");
+    fetchAndPopulateTableData("https://feed.cricket-rankings.com/feed/odi/batting/", "tableBody1");
+    fetchAndPopulateTableData("https://feed.cricket-rankings.com/feed/test/batting/", "tableBody2");
+    fetchAndPopulateTableData("https://feed.cricket-rankings.com/feed/t20/batting/", "tableBody3");
+    fetchAndPopulateTableData("https://feed.cricket-rankings.com/feed/odi/bowling/", "tableBody4");
+    fetchAndPopulateTableData("https://feed.cricket-rankings.com/feed/test/bowling/", "tableBody5");
+    fetchAndPopulateTableData("https://feed.cricket-rankings.com/feed/t20/bowling/", "tableBody6");
+    fetchAndPopulateTableData("https://feed.cricket-rankings.com/feed/odi/all-rounder/", "tableBody7");
+    fetchAndPopulateTableData("https://feed.cricket-rankings.com/feed/test/all-rounder/", "tableBody8");
+    fetchAndPopulateTableData("https://feed.cricket-rankings.com/feed/t20/all-rounder/", "tableBody9");
 });
 
