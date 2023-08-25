@@ -34,7 +34,7 @@ var countryImageMap = {
 
             const nameCell = document.createElement("td");
             nameCell.className = "text-start px-0";
-            nameCell.innerHTML = name;
+            nameCell.innerHTML = "dfsdfsfefefdsdfsd fsdfdsfdsf dfsfsdfd sfsdfdsfds";
 
             const countryCell = document.createElement("td");
             countryCell.className = "text-start px-0";
