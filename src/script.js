@@ -36,15 +36,15 @@ function toggleCard(buttonId, initialCardId) {
 }
 
 document.getElementById("toggleButtont20").addEventListener("click", function() {
-  toggleCard("toggleButtont20", "t20Initial");
+  toggleCard("toggleButtont20", "t20rankingListInitial");
 });
 
 document.getElementById("toggleButtonodi").addEventListener("click", function() {
-  toggleCard("toggleButtonodi", "odiInitial");
+  toggleCard("toggleButtonodi", "odirankingListInitial");
 });
 
 document.getElementById("toggleButtontest").addEventListener("click", function() {
-  toggleCard("toggleButtontest", "testInitial");
+  toggleCard("toggleButtontest", "testrankingListInitial");
 });
 
   // Point Table 
