@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Player Data Fetcher</title>
+</head>
+<body>
+  <div id="players-list"></div>
+
+  <script>
+    async function fetchData() {
+      const url = 'https://www.espncricinfo.com/cricketers/team/bangladesh-25/contracted-players';
+      
+      try {
+        const response = await fetch(url);
+        const html = await response.text();
+        
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(html, 'text/html');
+        
+        const playerContainers = doc.querySelectorAll('.ds-flex-row'); // Select all player containers
+        
+        const playersData = [];
+        playerContainers.forEach(container => {
+          const name = container.querySelector('.ds-text-compact-m.ds-font-medium.ds-text-typo').textContent.trim();
+          const link = container.querySelector('a').getAttribute('href');
+          const image = container.querySelector('img').getAttribute('src');
+          
+          playersData.push({
+            name: name,
+            link: link,
+            image: image
+          });
+        });
+        
+        // Render the fetched data
+        const playersList = document.getElementById('players-list');
+        playersData.forEach(player => {
+          const playerDiv = document.createElement('div');
+          playerDiv.innerHTML = `
+            <a href="${player.link}">
+              <img src="${player.image}" alt="${player.name}" width="80" height="80">
+              <span>${player.name}</span>
+            </a>
+          `;
+          playersList.appendChild(playerDiv);
+        });
+        
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      }
+    }
+
+    fetchData();
+  </script>
+</body>
+</html>
