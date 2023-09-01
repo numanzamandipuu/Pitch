@@ -129,7 +129,7 @@ wi
 
 
 
-sl
+sa
 
 
 833Temba Bavuma
@@ -153,3 +153,140 @@ sl
 
 
 
+ned
+
+
+2781Max O'Dowd
+733Tom Cooper
+4295Colin Ackermann
+4948Scott Edwards
+1794Logan van Beek
+2861Fred Klaassen
+1177Paul van Meekeren
+1401Vivian Kingma
+13546Brandon Glover
+1795Timm van der Gugten
+173Roelof van der Merwe
+1171Wesley Barresi
+5022Bas de Leede
+100559Shariz Ahmad
+1175Tim Gruijters
+
+
+
+
+
+
+pak
+
+2888Iftikhar Ahmed
+1568Imam-ul-Haq
+4208Faheem Ashraf
+855Haris Sohail
+2760Imad Wasim
+19406Mohammad Wasim
+3325Hasan Ali
+18832Naseem Shah
+2759Babar Azam
+1305Shan Masood
+3046Shadab Khan
+3195Mohammad Nawaz
+846Sarfaraz Ahmed
+1201Muhammad Rizwan
+4530Shaheen Shah Afridi
+5029Mohammad Hasnain
+
+
+
+
+sl
+
+
+
+4186Ashen Bandara
+3084Avishka Fernando
+954Dimuth Karunaratne
+877Bhanuka Rajapaksa
+3082Wanindu Hasaranga
+217Angelo Mathews
+2876Dasun Shanaka
+1847Niroshan Dickwella
+2877Jeffrey Vandersay
+3083Asitha Fernando
+1484Vishwa Fernando
+3154Kasun Rajitha
+230Dinesh Chandimal
+5569Oshada Fernando
+1738Kusal Perera
+1295Dhananjaya de Silva
+3873Chamika Karunaratne
+1670Kusal Mendis
+817Dushmantha Chameera
+3085Lahiru Kumara
+19469Dilshan Madushanka
+
+
+
+
+zm
+
+
+1723Ryan Burl
+1102Sean Williams
+5811Tony Munyonga
+1097Tendai Chatara
+533Craig Ervine
+1098Chamu Chibhabha
+1129Sikandar Raza
+1095Regis Chakabva
+1914Wellington Masakadza
+535Hamilton Masakadza
+
+
+
+
+india
+
+107Rohit Sharma
+2740Hardik Pandya
+164Virat Kohli
+8Ravichandran Ashwin
+116Bhuvneshwar Kumar
+1125KL Rahul
+94Mohammed Shami
+1745Shardul Thakur
+2972Rishabh Pant
+1124Jasprit Bumrah
+3840Mohammed Siraj
+59Umesh Yadav
+261Kuldeep Yadav
+1556Deepak Hooda
+2973Washington Sundar
+135Ajinkya Rahane
+1563Shreyas Iyer
+156Cheteshwar Pujara
+108Suryakumar Yadav
+
+
+
+
+
+new
+
+
+3020Finn Allen
+3027Glenn Phillips
+3642Daryl Mitchell
+1903Mitch Santner
+4650Devon Conway
+1140Tom Latham
+1619Tim Seifert
+3729Lockie Ferguson
+4599Ajaz Patel
+2890Henry Nicholls
+440Kane Williamson
+1358Mark Chapman
+3743Tom Blundell
+668Neil Wagner
+1304Ish Sodhi
+969Trent Boult
