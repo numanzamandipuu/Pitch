@@ -131,6 +131,7 @@ wi
 
 sa
 
+South Africa
 
 833Temba Bavuma
 652Dean Elgar
@@ -155,6 +156,7 @@ sa
 
 ned
 
+Netherlands
 
 2781Max O'Dowd
 733Tom Cooper
@@ -177,7 +179,7 @@ ned
 
 
 
-pak
+Pakistan
 
 2888Iftikhar Ahmed
 1568Imam-ul-Haq
@@ -199,7 +201,7 @@ pak
 
 
 
-sl
+Sri Lanka
 
 
 
@@ -227,8 +229,7 @@ sl
 
 
 
-
-zm
+Zimbabwe
 
 
 1723Ryan Burl
@@ -245,7 +246,7 @@ zm
 
 
 
-india
+India
 
 107Rohit Sharma
 2740Hardik Pandya
@@ -271,7 +272,7 @@ india
 
 
 
-new
+New Zealand
 
 
 3020Finn Allen

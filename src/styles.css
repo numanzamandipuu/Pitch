@@ -293,3 +293,23 @@ margin-left: 0px;
 .player-ranking-card {
   background-color: #1c1c1c!important;
 }
+
+
+/* Player Scrolling in Team Name */
+
+.scrolling-team-players {
+  width: 128px;
+  border: none!important;
+  border-radius: 20px;
+  background-color: #1C1C1C!important;
+  /* display: inline-block; */
+  margin-right: 10px;
+}
+
+.scrolling-team-players-img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: #121212;
+  width: 128px;
+  height: auto;
+}
